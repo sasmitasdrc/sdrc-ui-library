@@ -45,7 +45,7 @@
                                 <div class="col-md-3 col-md-offset-3">
                                     <div class="select-container text-center">
                                         <div class="input-group">
-                                            <input type="text" placeholder="Time Period *" class="form-control not-visible-input input-box" name="indicator">
+                                            <input type="text" placeholder="Time Period *" class="form-control not-visible-input input-box" name="indicator" readonly="">
                                             <div class="input-group-btn" style="position: relative;">
                                                 <button data-toggle="dropdown" class="btn btn-color dropdown-toggle btn-size" type="button">
                                                     <i class="fa fa-calendar"></i>
@@ -114,7 +114,7 @@
     </div>
 
     <div class="col-md-6">
-        <sdrc-bar-chart *ngIf="barChartData" [data]="barChartData.dataCollection"></sdrc-bar-chart>
+        <sdrc-bar-chart *ngIf="barChartData" [data]="spiderData.dataCollection"></sdrc-bar-chart>
     </div>
 </div>
 <div class="row">
@@ -122,8 +122,20 @@
         <sdrc-line-chart *ngIf="lineChartData" [data]="lineChartData"></sdrc-line-chart>
     </div>
     <div class="col-md-6">
-        <sdrc-doughnut-char *ngIf="donutChartData" [data]="donutChartData"></sdrc-doughnut-char>
-    </div>    
-</div>
+
+    <sdrc-doughnut-chart *ngIf="donutChartData" [data]="donutChartData"></sdrc-doughnut-chart>
+    </div>
+    </div>  
+    
+    <div class="row">
+            <div class="map_popover">
+                    <div class="map_popover_close"></div>
+                    <div class="map_popover_content"></div>
+                </div>
+            <sdrc-thematic-view></sdrc-thematic-view>
+    </div>
+
 
 </div>
+
+<!-- </div> -->
