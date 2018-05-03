@@ -15,6 +15,7 @@ import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 
 import { AgmCoreModule } from '@agm/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ThematicViewComponent } from './charts/thematic-view/thematic-view.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import { BrowserModule } from '@angular/platform-browser';
     FormsModule,
     AgmCoreModule
   ],
-  declarations: [LineChartComponent, DashboardComponent, BarChartComponent, SpiderChartComponent, GoogleMapComponent, DoughnutChartComponent, PieChartComponent],
+  declarations: [LineChartComponent, DashboardComponent, BarChartComponent, SpiderChartComponent, GoogleMapComponent, DoughnutChartComponent, PieChartComponent, ThematicViewComponent],
   exports: [ LineChartComponent],
   providers: [ DashboardService],
   schemas: [NO_ERRORS_SCHEMA]
