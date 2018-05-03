@@ -1,27 +1,27 @@
 [
     {
     "id": 0,
-    "label": "water",
-    "value": 20,
+    "label": "Water",
+    "value": 50,
     "color": "red"
   }, {
     "id": 1,
-    "label": "land",
+    "label": "Land",
     "value": 20,
     "color": "blue"
   }, {
     "id": 2,
-    "label": "sand",
+    "label": "Sand",
     "value": 30,
     "color": "green"
   }, {
     "id": 3,
-    "label": "grass",
-    "value": 20,
+    "label": "Grass",
+    "value": 40,
     "color": "yellow"
   }, {
     "id": 4,
-    "label": "earth",
+    "label": "Earth",
     "value": 10,
     "color": "pink"
   }

@@ -18,7 +18,6 @@ export class UserProfileEditComponent implements OnInit {
   userFields: any; 
   areaDetails: any;
   columns: any;  
-  userForms: UserModel[];
 
   constructor(private formControlService: UserFormControlService, private webApi: WebApiService, private formDataSave: UserDataSharingService) { }
 
@@ -38,8 +37,8 @@ export class UserProfileEditComponent implements OnInit {
   }
   selectDropDown(selectedOption, model, index){
     console.log("selected");
-    this.userForms[index].value = selectedOption.value;
-    this.userForms[index].key = selectedOption.key;
+    this.userFields[index].value = selectedOption.value;
+    this.userFields[index].key = selectedOption.key;
   }
 
 }

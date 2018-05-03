@@ -29,7 +29,8 @@
               }
             ],
             "typeId": 1,
-            "controlType": "dropdown"
+            "controlType": "dropdown",
+            "value": null
           },
           {
             "key": 2,
@@ -188,6 +189,7 @@
               }
             ],
             "typeId": 2,
+            "value": null,
             "controlType": "dropdown"
           }
         ]
@@ -200,12 +202,14 @@
             "label": "Functional PNDT cell established: Yes/No",
             "aggRole": "",
             "type": "option",
-            "columnName": "c01 ",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "columnName": "c01 ",            
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": [
@@ -221,6 +225,7 @@
               }
             ],
             "typeId": 1,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -229,11 +234,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -246,11 +253,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -263,11 +272,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -280,11 +291,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c05",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -297,11 +310,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c06",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -314,11 +329,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c07",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -331,11 +348,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "c08",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -350,11 +368,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "d01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -367,11 +386,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "d02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -384,11 +404,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "d03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -401,11 +422,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "d04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -418,11 +440,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "d05",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -437,11 +460,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "e01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -454,11 +478,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "e02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -471,11 +496,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "e03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -490,11 +516,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "f01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -507,11 +534,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "f02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -524,11 +552,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "f03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -543,11 +572,12 @@
             "aggRole": "",
             "type": "option",
             "columnName": "g01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": [
@@ -563,6 +593,7 @@
               }
             ],
             "typeId": 1,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -571,11 +602,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "g02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -588,11 +620,12 @@
             "aggRole": "",
             "type": "number",
             "columnName": "g03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -607,11 +640,12 @@
             "aggRole": "",
             "type": "option",
             "columnName": "h01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": [
@@ -627,6 +661,7 @@
               }
             ],
             "typeId": 1,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -635,11 +670,13 @@
             "aggRole": "",
             "type": "option",
             "columnName": "h02",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": [
@@ -655,6 +692,7 @@
               }
             ],
             "typeId": 1,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -663,11 +701,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "h03",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -680,15 +720,18 @@
             "aggRole": "",
             "type": "option",
             "columnName": "h04",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
             "typeId": null,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -697,11 +740,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "h05",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -714,11 +759,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "h06",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -731,11 +778,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "h07",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -748,11 +797,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "h08",
-            "dependecy": true,
-            "dependentColumn": "h1",
-            "dependentCondition": [
-              "isDependencyYes"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -767,11 +818,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "i01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": false,
+                "dependentOn": null,
+                "dependentFor": null
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -784,11 +837,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "i02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -803,11 +858,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -820,11 +877,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -837,11 +896,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -854,11 +915,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -871,11 +934,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j05",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -888,11 +953,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j06",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -905,11 +972,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j07",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -922,11 +991,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j08",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -939,11 +1010,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "j09",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -958,11 +1031,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "k01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -975,11 +1050,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "k02",
-            "dependecy": true,
-            "dependentColumn": "k1",
-            "dependentCondition": [
-              "isLessThanEqualToDependency"
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -994,11 +1071,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "l01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1013,11 +1092,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "l02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1030,11 +1111,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "l03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1049,11 +1132,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "m01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1066,11 +1151,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "m02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1085,11 +1172,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "n01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1104,11 +1193,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "o01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1121,11 +1212,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "o02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            }, 
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1140,11 +1233,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "p01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": false,
+                "dependentOn": null,
+                "dependentFor": null
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1159,11 +1254,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "p01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1176,11 +1273,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "p02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1195,11 +1294,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "r01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1214,11 +1315,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "s01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1233,11 +1336,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "t01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1252,11 +1357,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "u01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1269,11 +1376,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "u02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1286,11 +1395,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "u03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1303,11 +1414,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "u04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1322,11 +1435,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "v01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1341,11 +1456,13 @@
             "aggRole": "",
             "type": "file",
             "columnName": "q01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1364,11 +1481,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ac01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1381,11 +1500,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ac02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1398,11 +1519,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ac03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1415,11 +1538,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ac04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1434,11 +1559,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "x01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1451,11 +1578,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "x02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1470,11 +1599,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "y01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1487,11 +1618,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "y02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1504,11 +1637,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "y03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1523,11 +1658,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "z01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1540,11 +1677,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "z02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1559,11 +1698,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "aa01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1578,11 +1719,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ab01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1595,11 +1738,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ab02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1614,11 +1759,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ad01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1631,15 +1778,18 @@
             "aggRole": "",
             "type": "option",
             "columnName": "ad02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
             "typeId": null,
+            "value": null,
             "controlType": "dropdown"
           },
           {
@@ -1648,11 +1798,13 @@
             "aggRole": "",
             "type": "{\"report\":[\"pdf\",\"doc\"],\"photo\":[\"jpg\",\"png\"],\"video\":[\"mp4\",\"ogg\"]}",
             "columnName": "ad03",
-            "dependecy": true,
-            "dependentColumn": "ad02",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1665,11 +1817,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ad04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1682,11 +1836,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "ad05",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1705,11 +1861,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "v02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1724,11 +1882,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "w01",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1741,11 +1901,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "w02",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1758,11 +1920,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "w03",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,
@@ -1775,11 +1939,13 @@
             "aggRole": "",
             "type": "number",
             "columnName": "w04",
-            "dependecy": false,
-            "dependentColumn": "",
-            "dependentCondition": [
-              ""
-            ],
+            "dependentCondition": {
+              "isDependency":{
+                "key": true,
+                "dependentOn": "parent",
+                "dependentFor": "hasCondition"
+              }
+            },
             "frequency": "quaterly",
             "roleId": 3,
             "options": null,

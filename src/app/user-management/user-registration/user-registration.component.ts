@@ -15,7 +15,6 @@ export class UserRegistrationComponent implements OnInit {
 
   allUserFields: any;
   userRegistrationFields: any; 
-  userForms: UserModel[];
 
   constructor(private formControlService: UserFormControlService, private webApi: WebApiService, private formDataSave: UserDataSharingService) { }
 
@@ -30,8 +29,7 @@ export class UserRegistrationComponent implements OnInit {
     console.log("submit");
   }
   selectDropDown(selectedOption, model, index){    
-    this.userForms[index].value = selectedOption.value;
-    this.userForms[index].key = selectedOption.key;
+    this.userRegistrationFields[index].value = selectedOption.value; 
   }
 
 }

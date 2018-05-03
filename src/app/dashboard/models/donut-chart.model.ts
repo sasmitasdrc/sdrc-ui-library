@@ -1,5 +1,4 @@
 
-
 export interface DonutChartModel {
     id: number;
     label: string;

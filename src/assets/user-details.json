@@ -7,6 +7,7 @@
             "columnName": "salutation",
             "controlType": "dropdown",
             "type":"option",
+            "value": null,
             "options":[                
               {
                 "key": 1,
@@ -133,6 +134,7 @@
             "columnName": "role",
             "controlType": "dropdown",
             "type":"option",
+            "value": null,
             "options":[                
               {
                 "key": 1,

@@ -107,22 +107,21 @@
     </div>
 </div>
 
-
 <div class="row"> 
     <div class="col-md-6">
         <sdrc-spider-chart *ngIf="spiderData" [data]="spiderData.dataCollection"></sdrc-spider-chart>
     </div>
 
     <div class="col-md-6">
-        <sdrc-bar-chart *ngIf="barChartData" [data]="barChartData.dataCollection"></sdrc-bar-chart>
+        <sdrc-bar-chart *ngIf="barChartData" [data]="spiderData.dataCollection"></sdrc-bar-chart>
     </div>
 </div>
 <div class="row">
     <div class="col-md-6">
         <sdrc-line-chart *ngIf="lineChartData" [data]="lineChartData"></sdrc-line-chart>
     </div>
-    <div class="col-md-6">
-        <sdrc-doughnut-char *ngIf="donutChartData" [data]="donutChartData"></sdrc-doughnut-char>
+    <div class="col-md-6 dought-chart">
+        <sdrc-doughnut-chart *ngIf="donutChartData" [data]="donutChartData"></sdrc-doughnut-chart>
     </div>    
 </div>
 

@@ -22,7 +22,6 @@ export class DashboardService {
   getLineChartData(){
     return this.httpClient.get<LineChartModel[]>('assets/lineChartData.json');
   }
-
   getDonutChartData(){
     return this.httpClient.get<DonutChartModel>('assets/donutChartData.json');
   }
